@@ -3,7 +3,7 @@
 }
 .main{
      width: 1521px;
-    height: 1700px;
+        height: 1442px;
     background-color:rgba(227, 230, 230);
 }
 .H1 {
@@ -207,7 +207,7 @@
 }
 .content_1{
     width: 100%;
-    height: 934px;
+    height: 509px;
     background-color: rgba(227, 230, 230);
 }
 .content_2{
@@ -262,14 +262,14 @@
     padding-top: 16px;
     margin-left: 24px;
     width: auto;
-    height: 267px;
+    height: 242px;
     transition: 0.5s;
 }
 .item_3:hover{
     padding-top: 16px;
     margin-left: 24px;
     width: auto;
-    height: 267px;
+    height: 242px;
     filter:brightness(130%);
     transform: scale(1.01);
 }
@@ -277,14 +277,14 @@
     padding-top: 16px;
     margin-left: 24px;
     width: auto;
-    height: 260px;
+    height: 242px;
     transition: 0.5s;
 }
 .item_4:hover{
     padding-top: 16px;
     margin-left: 24px;
     width: auto;
-    height: 260px;
+    height: 242px;
     filter:brightness(130%);
     transform: scale(1.01);
 }
@@ -420,7 +420,7 @@
 }
 .offer_join{
     cursor: pointer;
-    margin-right: 33.8px;;
+    margin-right: 25.8px;
     display: flex;
 }
 .RGIF{
@@ -429,13 +429,14 @@
     font-family: Arial, sans-serif;
     margin-top: 16px;
     margin-left: 8px;
+    width: 113px;
 }
 .money{
     font-family: Arial, sans-serif;
     font-size: 21px;
     position: relative;
     top: 41px;
-    left: -170px;
+    left: -184px;
     margin-top: 10px;
 }
 .GIF{
@@ -466,3 +467,26 @@
     border-collapse: separate;
     border-spacing: 98px 13px
 }   
+
+.child {
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.grid{
+    width: 322px;
+    height: 239px;
+}
+
+.item_with_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23px;
+    width: 352px;
+    height: 416px;
+    background-color: rgb(255, 255, 255);
+}
